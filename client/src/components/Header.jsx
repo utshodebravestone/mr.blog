@@ -25,7 +25,7 @@ const Header = () => {
       <nav
         className={`w-full lg:w-auto h-screen lg:h-auto fixed top-0 bottom-0 -right-full lg:static flex flex-col lg:flex-row justify-center lg:justify-end ${
           navIsActive ? "right-0" : "-right-full"
-        } bg-white`}
+        } bg-white transition-all duration-500`}
       >
         <ul className="flex flex-col lg:flex-row justify-evenly items-center gap-14 font-semibold">
           {navItems.map((navItem, i) => (
