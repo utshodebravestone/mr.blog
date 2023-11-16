@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 import { images, navItems } from "../constants";
@@ -29,16 +28,13 @@ const Header = () => {
       >
         <ul className="flex flex-col lg:flex-row justify-evenly items-center gap-14 font-semibold">
           {navItems.map((navItem, i) => (
-            <NavItem key={i} text={navItem.text} href={navItem.href} />
+            <NavItem
+              key={i}
+              text={navItem.text}
+              href={navItem.href}
+              type={navItem.type}
+            />
           ))}
-          <li>
-            <Link
-              to="/signin"
-              className="px-5 py-3 border border-blue-500 rounded text-blue-500 hover:bg-blue-500 hover:text-white transition-all duration-500"
-            >
-              Sign In
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
