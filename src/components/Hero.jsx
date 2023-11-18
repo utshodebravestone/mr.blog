@@ -16,13 +16,13 @@ const Hero = () => {
           that <span className="font-bold italic">you</span> run.
         </p>
 
-        <div className="flex gap-5 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-5 justify-center items-center mx-5 md:mx-0">
           <input
             type="text"
             placeholder="Search for an Article..."
-            className="w-4/6 p-2.5 text-xl border border-gray-200 rounded focus:outline-none shadow"
+            className="w-full md:w-4/6 p-2.5 text-xl border border-gray-200 rounded focus:outline-none shadow"
           />
-          <button className="px-5 py-3 border border-blue-500 rounded bg-blue-500 font-bold text-white hover:text-blue-500 hover:bg-white transition-all duration-500">
+          <button className="w-full md:w-1/6 px-5 py-2.5 border border-blue-500 rounded bg-blue-500 font-bold text-white text-xl hover:text-blue-500 hover:bg-white transition-all duration-500">
             Search
           </button>
         </div>
