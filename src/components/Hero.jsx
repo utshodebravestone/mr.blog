@@ -3,7 +3,7 @@ import { images } from "../constants";
 
 const Hero = () => {
   return (
-    <section className="px-0 xl:px-60 w-full flex flex-col lg:flex-row gap-5 justify-center items-center">
+    <section className="px-0 xl:px-20 w-full flex flex-col lg:flex-row gap-5 justify-center items-center">
       <div className="w-full lg:w-1/2 flex flex-col gap-5">
         <h1 className="text-5xl font-bold">
           An Article Hub for Readers and Authors

@@ -1,6 +1,17 @@
 const articles = [
   {
     thumbnail:
+      "https://images.unsplash.com/photo-1508169351866-777fc0047ac5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Why You Should Read More Books Outside of Your Curriculum",
+    description:
+      "If reading books that aren't in our curriculum doesn't bring any money then why bother read any?",
+    authorImage: "https://avatars.githubusercontent.com/u/142986562?v=4",
+    authorName: "Utsho de Bravestone",
+    authorType: "Verified",
+    date: "31th Dec, 2023",
+  },
+  {
+    thumbnail:
       "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Future of Web Dev",
     description:
@@ -31,17 +42,6 @@ const articles = [
     authorName: "Utsho de Bravestone",
     authorType: "Verified",
     date: "19th Nov, 2023",
-  },
-  {
-    thumbnail:
-      "https://images.unsplash.com/photo-1508169351866-777fc0047ac5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Why You Should Read More Books Outside of Your Curriculum",
-    description:
-      "If reading books that aren't in our curriculum doesn't bring any money then why bother read any?",
-    authorImage: "https://avatars.githubusercontent.com/u/142986562?v=4",
-    authorName: "Utsho de Bravestone",
-    authorType: "Verified",
-    date: "31th Dec, 2023",
   },
 ];
 

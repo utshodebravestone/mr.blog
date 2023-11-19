@@ -8,18 +8,19 @@ const Article = ({
   date,
 }) => {
   return (
-    <article className="p-2 rounded flex flex-col gap-2.5 shadow">
+    <article className="px-1.5 pb-3 rounded flex flex-col justify-between items-start gap-2.5 shadow">
+      <img
+        src={thumbnail}
+        alt="article thumbnail"
+        className="w-full h-80 object-cover rounded-t"
+      />
+
       <div className="flex flex-col gap-1">
-        <img
-          src={thumbnail}
-          alt="article thumbnail"
-          className="w-full h-80 object-cover rounded-t"
-        />
         <h1 className="text-3xl font-bold">{title}</h1>
         <p className="text-normal">{description}</p>
       </div>
 
-      <div className="flex justify-between items-end">
+      <div className="w-full flex justify-between items-end">
         <div className="flex gap-2.5 items-center">
           <img
             src={authorImage}
