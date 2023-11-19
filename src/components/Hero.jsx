@@ -3,10 +3,10 @@ import { images } from "../constants";
 
 const Hero = () => {
   return (
-    <section className="w-full flex flex-col lg:flex-row gap-5 justify-center items-center">
+    <section className="px-0 xl:px-60 w-full flex flex-col lg:flex-row gap-5 justify-center items-center">
       <div className="w-full lg:w-1/2 flex flex-col gap-5">
         <h1 className="text-5xl font-bold">
-          Read the most interesting articles
+          An Article Hub for Readers and Authors
         </h1>
         <p className="text-xl">
           A site for bloggers of all sort. You can read, write and critique
@@ -22,7 +22,7 @@ const Hero = () => {
             placeholder="Search for an Article..."
             className="w-full md:w-4/6 p-2.5 text-xl border border-gray-200 rounded focus:outline-none shadow"
           />
-          <button className="w-full md:w-1/6 px-5 py-2.5 border border-blue-500 rounded bg-blue-500 font-bold text-white text-xl hover:text-blue-500 hover:bg-white transition-all duration-500">
+          <button className="w-full md:w-fit px-5 py-2.5 border border-blue-500 rounded bg-blue-500 font-bold text-white text-xl hover:text-blue-500 hover:bg-white transition-all duration-500">
             Search
           </button>
         </div>
@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center w-full lg:w-1/2">
+      <div className="hidden lg:flex justify-center items-center w-full lg:w-1/2">
         <img
           src={images.heroImage}
           alt="hero image"
