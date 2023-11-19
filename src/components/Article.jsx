@@ -8,7 +8,7 @@ const Article = ({
   date,
 }) => {
   return (
-    <article className="px-1.5 pb-3 rounded flex flex-col justify-between items-start gap-2.5 shadow">
+    <article className="max-w-5xl px-1.5 pb-3 rounded flex flex-col justify-between items-start gap-2.5 shadow">
       <img
         src={thumbnail}
         alt="article thumbnail"

@@ -13,7 +13,10 @@ const Header = () => {
         <img src={images.logo} alt="logo" />
       </div>
 
-      <button onClick={toggleNavIsActive} className="w-8 h-8 z-50 lg:hidden">
+      <button
+        onClick={toggleNavIsActive}
+        className="w-8 h-8 z-50 lg:hidden transition-all duration-500"
+      >
         {navIsActive ? (
           <AiOutlineClose className="h-full w-full" />
         ) : (
